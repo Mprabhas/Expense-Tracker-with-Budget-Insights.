@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indian Expense Tracker</title>
+  <link rel="stylesheet" href="tracker.css">
+</head>
+<body>
+  <header>
+    <h1> Indian Expense Tracker</h1>
+    <p>Track income and spending with monthly insights (₹ INR)</p>
+  </header>
+
+  <main>
+    <section class="summary">
+      <div class="card">
+        <h2>Total Income</h2>
+        <p>₹25,000</p>
+      </div>
+      <div class="card">
+        <h2>Total Expenses</h2>
+        <p>₹11,500</p>
+      </div>
+      <div class="card">
+        <h2>Remaining Budget</h2>
+        <p>₹13,500</p>
+      </div>
+    </section>
+
+    <section class="add-transaction">
+      <h2>+ Add New Transaction</h2>
+      <form>
+        <label for="type">Type:</label>
+        <select id="type">
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+
+        <label for="amount">Amount (₹):</label>
+        <input type="number" id="amount" placeholder="e.g. 5000" />
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" placeholder="e.g. Salary, Grocery" />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" />
+
+        <button type="submit">Add Transaction</button>
+      </form>
+    </section>
+
+    <section class="report">
+      <h2> Monthly Insights</h2>
+      <div class="chart-placeholder"> Monthly Expense Chart Placeholder</div>
+    </section>
+
+    <section class="export">
+      <h2> Export Your Data</h2>
+      <button>Download to email</button>
+      <button>Download as PDF</button>
+    </section>
+  </main>
+</body>
+</html>
