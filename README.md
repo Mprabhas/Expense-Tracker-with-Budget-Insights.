@@ -1,2 +1,3 @@
-# Expense-Tracker-with-Budget-Insights.
-I am proud to announce that i have developed a Expense Tracker with Budget Insights.
+# Expense-Tracker-with-Budget-Insight 
+An Expense Tracker with Budget Insight Developed using Python HTML CSS
+
